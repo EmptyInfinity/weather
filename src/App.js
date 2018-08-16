@@ -17,8 +17,8 @@ class App extends Component {
 
   handleCity = (e) =>{
     e.preventDefault();
-    const URL = "http://api.openweathermap.org/data/2.5/weather?q=" + this.state.input + "&appid=b1b35bba8b434a28a0be2a3e1071ae5b&units=metric";
-    fetch(URL).then(res => res.json()).then(json => {
+    const link = "http://api.openweathermap.org/data/2.5/weather?q=" + this.state.input + "&appid=b1b35bba8b434a28a0be2a3e1071ae5b&units=metric";
+    fetch(link).then(res => res.json()).then(json => {
       this.setState({ weatherData: json });
     });
   }
