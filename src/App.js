@@ -52,22 +52,28 @@ class App extends Component {
         div =
         <div className="fire animal">
           <img src='fire_ex.png' alt="Fire" className="weatherTempImg" />
-          <div className="before"></div>
-          <h2>so hot</h2>
+          <div className="think">
+            <div></div>
+            <span>so hot</span>
+          </div>
         </div>;
       } else if (weatherData.main.temp < 5 ){
         div =
         <div className="animal">
           <img src='Penguin2.png' alt="Penguin" className="weatherTempImg" />
-          <div className="before"></div>
-          <h2>so cold</h2>
+          <div className="think">
+            <div></div>
+            <span>so cold</span>
+          </div>
         </div>;
       } else{
         div =
         <div className="perfect animal">
           <img src='rac.png' alt="Raccoon" className="weatherTempImg" />
-          <div className="before"></div>
-          <h2>perfect</h2>
+          <div className="think">
+            <div></div>
+            <span>perfect</span>
+          </div>
         </div>;
       }
     };

@@ -42,12 +42,18 @@ h1{
   margin-top: 10px;
   position: relative;
   z-index: 9990;
+  max-width: 350px ;
+  margin: auto;
 }
 #therm{
   right: 0px;
   height: 150px;
   position: absolute;
   top: 48px;
+}
+form{
+  max-width: 380px ;
+  margin: auto;
 }
 form label{
   cursor: pointer;
@@ -70,37 +76,31 @@ p.fixMarg{
   left: 0;
   right: 0;
 }
-h2{
+.animal{
+  position: relative;
+}
+.think{
   position: absolute;
-  font-weight: 300;
-  top: 14px;
-  right: 7px;
+  width: 100%;
   text-align: center;
+  top: 20px;
+}
+.think span{
+  margin-left: 222px;
+  font-weight: 300;
   font-size: 21px;
   padding: 11px;
   background: white;
   border-radius: 22px;
   z-index: 9991;
 }
-.before{
-  top: 58px;
-  right: 95px;
+.think div{
+  position: absolute;
   height: 18px;
   width: 18px;
   background: white;
   border-radius: 50%;
-  position: absolute;
-}
-.fire h2{
-  right: 15px;
-}
-.animal{
-  position: relative;
-}
-.perfect .before{
-  top: 56px;
-  right: 90px;
-}
-.perfect h2{
-  top: 14px;
+  top: 34px;
+  left: 50%;
+  margin-left: 53px;
 }
