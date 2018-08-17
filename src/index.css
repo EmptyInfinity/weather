@@ -3,7 +3,13 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 101%;
+  font-size: 104%;
+}
+.evening_bg{
+  background: linear-gradient(to right, #e06133, #f95f4f);
+}
+.morning_bg{
+  background:  linear-gradient(to right, #a4dff9, #2ba1d8);;
 }
 .m-auto{
   margin: auto;
@@ -20,12 +26,75 @@ h1{
   letter-spacing: -0.5;
   margin-bottom: 20px;
 }
-form label{
-  cursor: pointer;
+.alert{
+  font: 0.95rem;
+  padding: 5px 10px;
+  margin-top: 10px;
+  text-align: center;
 }
-p{
-  margin: 15px 0 0 0;
+.container{
+  font-weight: 300;
 }
 .weatherData{
   margin-top: 10px;
+  position: relative;
+  z-index: 9990;
+}
+#therm{
+  right: 0px;
+  height: 150px;
+  position: absolute;
+  top: 48px;
+}
+form label{
+  cursor: pointer;
+}
+.input-group{
+  box-shadow: 3px 3px 4px rgba(0,0,0,.5);
+}
+p{
+  margin: 10px 0 0 0;
+}
+p.fixMarg{
+  margin-top: -5px;
+}
+.weatherTempImg{
+  position: absolute;
+  bottom: 1px;
+  height: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+h2{
+  position: absolute;
+  font-weight: 300;
+  bottom: 142px;
+  right: 7px;
+  text-align: center;
+  font-size: 21px;
+  padding: 11px;
+  background: white;
+  border-radius: 22px;
+  z-index: 9991;
+}
+.before{
+  bottom: 138px;
+  right: 95px;
+  height: 18px;
+  width: 18px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+}
+.fire h2{
+  right: 15px;
+}
+.perfect .before{
+  bottom: 140px;
+  right: 92px;
+}
+.perfect h2{
+  bottom: 144px;
 }
