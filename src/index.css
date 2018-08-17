@@ -5,6 +5,9 @@
   font-family: 'Roboto', sans-serif;
   font-size: 104%;
 }
+body{
+  min-height: 100vh;
+}
 .evening_bg{
   background: linear-gradient(to right, #e06133, #f95f4f);
 }
