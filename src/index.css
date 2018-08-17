@@ -5,9 +5,9 @@
   font-family: 'Roboto', sans-serif;
   font-size: 104%;
 }
-body{
+/* body{
   min-height: 100vh;
-}
+} */
 .evening_bg{
   background: linear-gradient(to right, #e06133, #f95f4f);
 }
@@ -63,7 +63,7 @@ p.fixMarg{
 }
 .weatherTempImg{
   position: absolute;
-  bottom: 1px;
+  top: 35px;
   height: 180px;
   margin-left: auto;
   margin-right: auto;
@@ -73,7 +73,7 @@ p.fixMarg{
 h2{
   position: absolute;
   font-weight: 300;
-  bottom: 142px;
+  top: 14px;
   right: 7px;
   text-align: center;
   font-size: 21px;
@@ -83,7 +83,7 @@ h2{
   z-index: 9991;
 }
 .before{
-  bottom: 138px;
+  top: 58px;
   right: 95px;
   height: 18px;
   width: 18px;
@@ -94,10 +94,13 @@ h2{
 .fire h2{
   right: 15px;
 }
+.animal{
+  position: relative;
+}
 .perfect .before{
-  bottom: 140px;
-  right: 92px;
+  top: 56px;
+  right: 90px;
 }
 .perfect h2{
-  bottom: 144px;
+  top: 14px;
 }

@@ -50,21 +50,21 @@ class App extends Component {
     if( weatherData  ){
       if( weatherData.main.temp >= 25){
         div =
-        <div className="fire">
+        <div className="fire animal">
           <img src='fire_ex.png' alt="Fire" className="weatherTempImg" />
           <div className="before"></div>
           <h2>so hot</h2>
         </div>;
       } else if (weatherData.main.temp < 5 ){
         div =
-        <div >
+        <div className="animal">
           <img src='Penguin2.png' alt="Penguin" className="weatherTempImg" />
           <div className="before"></div>
           <h2>so cold</h2>
         </div>;
       } else{
         div =
-        <div className="perfect">
+        <div className="perfect animal">
           <img src='rac.png' alt="Raccoon" className="weatherTempImg" />
           <div className="before"></div>
           <h2>perfect</h2>
